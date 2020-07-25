@@ -27,6 +27,13 @@ public class Board {
 		this.columns = columns;
 	}
 	
+	public Piece Piece(int row, int column) { //retorna a peça, e não o vetor
+		return pieces[row][column];
+	}
 	
+	
+	public Piece Piece(Position position) { //retorna a peça, e não o vetor
+		return pieces[position.getRow()][position.getColumn()];
+	}
 	
 }
