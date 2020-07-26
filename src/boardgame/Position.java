@@ -1,13 +1,13 @@
 package boardgame;
 
 public class Position {
-	private int row;
-	private int column;
+	private int row; //atributo linha tipo inteiro
+	private int column; //atributo coluna tipo inteiro
 	
 	public Position() {
 	}
 	
-	public Position(int row, int column) {
+	public Position(int row, int column) { //construtor
 		this.row = row;
 		this.column = column;
 	}
