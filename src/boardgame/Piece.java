@@ -9,11 +9,8 @@ public class Piece {
 		position = null; //
 	}
 
-	public Board getBoard() {
+	private Board getBoard() {
 		return board;
 	}
-	
-	
-	
 	
 }
