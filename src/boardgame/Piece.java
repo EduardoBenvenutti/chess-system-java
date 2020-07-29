@@ -1,7 +1,7 @@
 package boardgame;
 
 public class Piece {
-	protected Position position; //posição, metodos row e column
+	protected Position position; //posição, atributo row e column
 	private Board board; //peça pertence ao tabuleiro
 	
 	public Piece(Board board) {
